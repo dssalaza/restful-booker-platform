@@ -3,4 +3,4 @@ language: java
 jdk:
   - oraclejdk14
 
-script: build_locally.sh
+script: sh build_locally.sh
