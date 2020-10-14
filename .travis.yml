@@ -1,5 +1,6 @@
 language: java
+
 jdk:
   - oraclejdk14
-script: cd ../..
-script: mvn clean && mvn install
+
+script: build_locally.sh
